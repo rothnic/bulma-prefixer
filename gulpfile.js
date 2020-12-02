@@ -20,7 +20,7 @@ gulp.task("sass", function () {
     // Ignore Bulma modifiers "is-"
     prefixer({
       prefix: "bu-",
-      ignore: [/is-/],
+      ignore: [/is-/, /has-/],
     }),
   ];
 

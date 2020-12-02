@@ -4,7 +4,7 @@ A minimal setup to prefix bulma classes using postcss-prefixer
 
 ## Summary
 
-Currently, it is configured to prepend all bulma classes with `bu-`, unless they begin with `is-`.
+Currently, it is configured to prepend all bulma classes with `bu-`, unless they begin with `is-` or `has-`.
 
 So, `notification is-primary` would become `bu-notification is-primary`, which should avoid conflicts with existing css classes you are using.
 
