@@ -1,6 +1,6 @@
 # bulma-prefixer
 
-A minimal setup to prefix bulma classes using postcss-prefixer
+A minimal setup to prefix [bulma](https://bulma.io/) classes using [postcss-prefixer](https://github.com/marceloucker/postcss-prefixer) and [gulp](https://gulpjs.com/)
 
 ## Summary
 
@@ -19,3 +19,9 @@ To output the css file, run the following command from the project folder:
 Make sure you have gulp available in your environment if that fails:
 
 `npm install -g gulp`
+
+## Credits
+
+- [Bulma](https://bulma.io/)
+- This is an extension of [this solution](https://github.com/jgthms/bulma/issues/302#issuecomment-661319900) shared in the [Bulma Namespace Issue](https://github.com/jgthms/bulma/issues/302)
+- [postcss-prefixer](https://github.com/marceloucker/postcss-prefixer)
